@@ -1,0 +1,247 @@
+@font-face {
+   font-family: KhodijahFree;
+   src: url(KhodijahFree.ttf);
+}
+@font-face {
+   font-family: bBerlebaranOnline;
+   src: url(bBerlebaranOnline.ttf);
+}
+@font-face {
+   font-family: aAwalRamadhan;
+   src: url(aAwalRamadhan.ttf);
+}
+@font-face {
+   font-family: hidayatullahDEMO;
+   src: url(hidayatullahDEMO.ttf);
+}
+@font-face {
+   font-family: solander;
+   src: url(solander.ttf);
+}
+
+Body	{background-color: black;
+	color:white;
+	}
+
+h1	{font-size:60px;
+     	height:50px;
+	font-family: KhodijahFree;
+	padding: 15px;
+	}
+
+h2	{font-family: bBerlebaranOnline;
+	font-size:40px;
+	color:white;
+	}
+
+h3	{font-family: hidayatullahDEMO;
+	font-size:15px;
+	color:white;
+	}
+
+h4	{font-family: solander;
+	font-size:40px;
+     	height:50px;}
+
+p,label	{font-family: solander;
+	font-size:24px}
+
+a	{font-family: Georgia;
+	color:#000000;
+	background-color: #FFFFFF}
+
+
+table, th, td	{border: 1px solid black;
+		 border-collapse: collapse;
+		 border-radius: 50px;
+		 border-style: inset;
+		 border-color: black;
+		 background-color: black;
+		 text-align: center;
+		 font-size: 15px;
+		 padding: 6px}
+
+.td1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.td2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.td3 {
+  background-color: white;
+  color: black;
+  border: 2px solid purple;
+}
+
+table	{width: 100%}
+
+table.layout, td.layout {width: 100%;
+			 border: none}
+
+th	{color:#000000;
+	background-color: #FFFFFF}
+
+
+.button {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 50px;
+  border-style: inset
+  color: gray;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: aAwalRamadhan;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid purple;
+}
+#guessButton, #guess, #resetButton{
+  background-color: white;
+  color: black;
+  border: 2px solid purple;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: solander;
+}
+#resetButton{
+  display: flex;
+  justify-content: center;
+}
+#returnMessage{
+  font-size: 30px;
+}
+.button1:hover {
+  background-color: purple;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button1:active {
+  background-color: purple;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2:active {
+  background-color: #008CBA;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+.button3:hover {
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button3:active {
+  background-color: #008CBA;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid gold;
+}
+
+.button4:hover {
+  background-color: gold;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button4:active {
+  background-color: gold;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid salmon;
+}
+
+.button5:hover {
+  background-color: salmon;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button5:active {
+  background-color: salmon;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+
+.button6 {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+}
+
+.button6:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button6:active {
+  background-color: red;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+
+.button7 {
+  background-color: white;
+  color: black;
+  border: 2px solid brown;
+}
+
+.button7:hover {
+  background-color: brown;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button7:active {
+  background-color: brown;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
